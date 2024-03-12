@@ -26,8 +26,14 @@
             a {
                 cursor: pointer;
                 @include ordinary-text;
+                color: $main-body-color;
+                font-family: 'Anta', sans-serif;
                 text-decoration: none;
                 background: none;
+
+                &:hover {
+                    color: #7d828f;
+                }
             }
         }
     }

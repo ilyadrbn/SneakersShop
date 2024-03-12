@@ -3,13 +3,14 @@
         <div class="header-wrapper">
             <LogoComponent />
             <MenuComponent />
-            <div class="control-block"></div>
+            <ControlComponent />
         </div>
     </header>
 </template>
 <script setup>
-import LogoComponent from '../Modules/LogoComponent.vue'
-import MenuComponent from '../Modules/MenuComponent.vue'
+import LogoComponent from './Modules/LogoComponent.vue'
+import MenuComponent from './Modules/MenuComponent.vue'
+import ControlComponent from './Modules/ControlComponent.vue'
 </script>
 <style lang="scss" scoped>
 @import '../assets/styles/styles.scss';
